@@ -1,0 +1,58 @@
+:root {
+    --darkcolor: brown;
+    --light-color: red;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background: var(--darkcolor);
+    color: red;
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+
+
+
+main{
+    width: 75%;
+    height: 85vh;
+    margin: 0 auto;
+    background: var(--light-color);
+    padding: 8rem 2rem 3rem 2rem;
+    margin-top: -5rem;
+    text-align: justify;
+}
+
+
+
+img {
+    width: 200px;
+    float: right;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+
+}
+
+
+
+.footer {
+    width: 75%;
+    margin: 0 auto;
+    background:var(--dark-coor);
+    color: var(--light-color);
+    text-align: center;
+    padding: 3rem;
+}
